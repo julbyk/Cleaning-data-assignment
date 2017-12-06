@@ -8,14 +8,11 @@ subject
 activity
 	Type of the activity studied at every experiment.
 	factor with 6 levels,
+		LAYING
 		WALKING
-
 		WALKING_UPSTAIRS
-
 		WALKING_DOWNSTAIRS
-
 		SITTING
-
 		STANDING
 6 LAYING
 
