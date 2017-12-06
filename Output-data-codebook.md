@@ -1,11 +1,11 @@
 # Human Activity Recognition Dataset
 
-* subject
+* ## subject
 	Identifier for every subject who carried out experiment
 	integer,
 		1..30
 
-* activity
+* ## activity
 	Type of the activity studied at every experiment.
 	factor with 6 levels,
 		WALKING
@@ -16,12 +16,12 @@
 		LAYING
 
 
-* tBodyAcc-mean()-X
+* ## tBodyAcc-mean()-X
 	The mean of body acceleration along X
 	numeric,
 		-1 to 1
 
-* tBodyAcc-mean()-Y
+* ## tBodyAcc-mean()-Y
 	The mean of body acceleration along Y
 	numeric,
 		-1 to 1
