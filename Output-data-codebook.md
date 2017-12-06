@@ -1,11 +1,11 @@
 # Human Activity Recognition Dataset
 
-* ## subject
+* ### subject
 	Identifier for every subject who carried out experiment
 	integer,
 		1..30
 
-* ## activity
+* ### activity
 	Type of the activity studied at every experiment.
 	factor with 6 levels,
 		WALKING
@@ -16,332 +16,332 @@
 		LAYING
 
 
-* ## tBodyAcc-mean()-X
+* ### tBodyAcc-mean()-X
 	The mean of body acceleration along X
 	numeric,
 		-1 to 1
 
-* ## tBodyAcc-mean()-Y
+* ### tBodyAcc-mean()-Y
 	The mean of body acceleration along Y
 	numeric,
 		-1 to 1
 
-* tBodyAcc-mean()-Z
+* ### tBodyAcc-mean()-Z
 	The mean of body acceleration along Z
 	numeric,
 		-1 to 1
 
-* tBodyAcc-std()-X
+* ### tBodyAcc-std()-X
 	The standard deviation of body acceleration along X
 	numeric,
 		-1 to 1
 
-* tBodyAcc-std()-Y
+* ### tBodyAcc-std()-Y
 	The standard deviation of body acceleration along Y
 	numeric,
 		-1 to 1
 
-* tBodyAcc-std()-Z
+* ### tBodyAcc-std()-Z
 	The standard deviation of body acceleration along Z
 	numeric,
 		-1 to 1
 
-* tGravityAcc-mean()-X
+* ### tGravityAcc-mean()-X
 	The mean of gravity acceleration along X
 	numeric,
 		-1 to 1
 
-* tGravityAcc-mean()-Y
+* ### tGravityAcc-mean()-Y
 	The mean of gravity acceleration along Y
 	numeric,
 		-1 to 1
 
-* tGravityAcc-mean()-Z
+* ### tGravityAcc-mean()-Z
 	The mean of gravity acceleration along Z
 	numeric,
 		-1 to 1
 
-* tGravityAcc-std()-X
+* ### tGravityAcc-std()-X
 	The standard deviation of gravity acceleration along X
 	numeric,
 		-1 to 1
 
-* tGravityAcc-std()-Y
+* ### tGravityAcc-std()-Y
 	The standard deviation of gravity acceleration along Y
 	numeric,
 		-1 to 1
 
-* tGravityAcc-std()-Z
+* ### tGravityAcc-std()-Z
 	The standard deviation of gravity acceleration along Z
 	numeric,
 		-1 to 1
 
-* tBodyAccJerk-mean()-X	
+* ### tBodyAccJerk-mean()-X	
 	The mean of body acceleration jerk along X
 	numeric,
 		-1 to 1
 
-* tBodyAccJerk-mean()-Y
+* ### tBodyAccJerk-mean()-Y
 	The mean of body acceleration jerk along Y
 	numeric,
 		-1 to 1
 
-* tBodyAccJerk-mean()-Z
+* ### tBodyAccJerk-mean()-Z
 	The mean of body acceleration jerk along Z
 	numeric,
 		-1 to 1
 
-* tBodyAccJerk-std()-X
+* ### tBodyAccJerk-std()-X
 	The standard deviation of body acceleration jerk along X
 	numeric,
 		-1 to 1
 
-* tBodyAccJerk-std()-Y
+* ### tBodyAccJerk-std()-Y
 	The standard deviation of body acceleration jerk along Y
 	numeric,
 		-1 to 1
 
-* tBodyAccJerk-std()-Z
+* ### tBodyAccJerk-std()-Z
 	The standard deviation of body acceleration jerk along Z
 	numeric,
 		-1 to 1
 
-* tBodyGyro-mean()-X
+* ### tBodyGyro-mean()-X
 	The mean of body acceleration by gyroscope along X
 	numeric,
 		-1 to 1
 
-* tBodyGyro-mean()-Y
+* ### tBodyGyro-mean()-Y
 	The mean of body acceleration by gyroscope along Y
 	numeric,
 		-1 to 1
 
-* tBodyGyro-mean()-Z
+* ### tBodyGyro-mean()-Z
 	The mean of body acceleration by gyroscope along Z
 	numeric,
 		-1 to 1
 
-* tBodyGyro-std()-X
+* ### tBodyGyro-std()-X
 	The standard deviation of body acceleration by gyroscope along X
 	numeric,
 		-1 to 1
 
-* tBodyGyro-std()-Y
+* ### tBodyGyro-std()-Y
 	The standard deviation of body acceleration by gyroscope along Y
 	numeric,
 		-1 to 1
 
-* tBodyGyro-std()-Z
+* ### tBodyGyro-std()-Z
 	The standard deviation of body acceleration by gyroscope along Z
 	numeric,
 		-1 to 1
 
-* tBodyGyroJerk-mean()-X
+* ### tBodyGyroJerk-mean()-X
 	The mean of body jerk by gyroscope along X
 	numeric,
 		-1 to 1
 
-* tBodyGyroJerk-mean()-Y
+* ### tBodyGyroJerk-mean()-Y
 	The mean of body jerk by gyroscope along Y
 	numeric,
 		-1 to 1
 
-* tBodyGyroJerk-mean()-Z
+* ### tBodyGyroJerk-mean()-Z
 	The mean of body jerk by gyroscope along Z
 	numeric,
 		-1 to 1
 
-* tBodyGyroJerk-std()-X
+* ### tBodyGyroJerk-std()-X
 	The standard deviation of body jerk by gyroscope along X
 	numeric,
 		-1 to 1
 
-* tBodyGyroJerk-std()-Y
+* ### tBodyGyroJerk-std()-Y
 	The standard deviation of body jerk by gyroscope along Y
 	numeric,
 		-1 to 1
 
-* tBodyGyroJerk-std()-Z
+* ### tBodyGyroJerk-std()-Z
 	The standard deviation of body jerk by gyroscope along Z
 	numeric,
 		-1 to 1
 
-* tBodyAccMag-mean()
+* ### tBodyAccMag-mean()
 	The mean of body acceleration
 	numeric,
 		-1 to 1
 
-* tBodyAccMag-std()
+* ### tBodyAccMag-std()
 	The standard deviation of body acceleration
 	numeric,
 		-1 to 1
 
-* tGravityAccMag-mean()
+* ### tGravityAccMag-mean()
 	The mean of gravity acceleration
 	numeric,
 		-1 to 1
 
-* tGravityAccMag-std()
+* ### tGravityAccMag-std()
 	The standard deviation of gravity acceleration
 	numeric,
 		-1 to 1
 
-* tBodyAccJerkMag-mean()
+* ### tBodyAccJerkMag-mean()
 	The mean of body acceleration jerk
 	numeric,
 		-1 to 1
 
-* tBodyAccJerkMag-std()
+* ### tBodyAccJerkMag-std()
 	The standard deviation of body acceleration jerk
 	numeric,
 		-1 to 1
 
-* tBodyGyroMag-mean()
+* ### tBodyGyroMag-mean()
 	The mean of body acceleration by gyroscope
 	numeric,
 		-1 to 1
 
-* tBodyGyroMag-std()
+* ### tBodyGyroMag-std()
 	The standard deviation of body acceleration by gyroscope
 	numeric,
 		-1 to 1
 
-* tBodyGyroJerkMag-mean()
+* ### tBodyGyroJerkMag-mean()
 	The mean of body jerk by gyroscope
 	numeric,
 		-1 to 1
 
-* tBodyGyroJerkMag-std()
+* ### tBodyGyroJerkMag-std()
 	The standard deviation of body jerk by gyroscope
 	numeric,
 		-1 to 1
 
-* fBodyAcc-mean()-X
+* ### fBodyAcc-mean()-X
 	The mean of FFT body acceleration along X
 	numeric,
 		-1 to 1
 
-* fBodyAcc-mean()-Y
+* ### fBodyAcc-mean()-Y
 	The mean of FFT body acceleration along Y
 	numeric,
 		-1 to 1
 
-* fBodyAcc-mean()-Z
+* ### fBodyAcc-mean()-Z
 	The mean of FFT body acceleration along Z
 	numeric,
 		-1 to 1
 
-* fBodyAcc-std()-X
+* ### fBodyAcc-std()-X
 	The standard deviation of FFT body acceleration along X
 	numeric,
 		-1 to 1
 
-* fBodyAcc-std()-Y
+* ### fBodyAcc-std()-Y
 	The standard deviation of FFT body acceleration along Y
 	numeric,
 		-1 to 1
 
-* fBodyAcc-std()-Z
+* ### fBodyAcc-std()-Z
 	The standard deviation of FFT body acceleration along Z
 	numeric,
 		-1 to 1
 
-* fBodyAccJerk-mean()-X
+* ### fBodyAccJerk-mean()-X
 	The mean of FFT body acceleration jerk along X
 	numeric,
 		-1 to 1
 
-* fBodyAccJerk-mean()-Y
+* ### fBodyAccJerk-mean()-Y
 	The mean of FFT body acceleration jerk along Y
 	numeric,
 		-1 to 1
 
-* fBodyAccJerk-mean()-Z
+* ### fBodyAccJerk-mean()-Z
 	The mean of FFT body acceleration jerk along Z
 	numeric,
 		-1 to 1
 
-* fBodyAccJerk-std()-X
+* ### fBodyAccJerk-std()-X
 	The standard deviation of FFT body acceleration jerk along X
 	numeric,
 		-1 to 1
 
-* fBodyAccJerk-std()-Y
+* ### fBodyAccJerk-std()-Y
 	The standard deviation of FFT body acceleration jerk along Y
 	numeric,
 		-1 to 1
 
-* fBodyAccJerk-std()-Z
+* ### fBodyAccJerk-std()-Z
 	The standard deviation of FFT body acceleration jerk along Z
 	numeric,
 		-1 to 1
 
-* fBodyGyro-mean()-X
+* ### fBodyGyro-mean()-X
 	The mean of FFT body acceleration by gyroscope along X
 	numeric,
 		-1 to 1
 
-* fBodyGyro-mean()-Y
+* ### fBodyGyro-mean()-Y
 	The mean of FFT body acceleration by gyroscope along Y
 	numeric,
 		-1 to 1
 
-* fBodyGyro-mean()-Z
+* ### fBodyGyro-mean()-Z
 	The mean of FFT body acceleration by gyroscope along Z
 	numeric,
 		-1 to 1
 
-* fBodyGyro-std()-X
+* ### fBodyGyro-std()-X
 	The standard deviation of FFT body acceleration by gyroscope along X
 	numeric,
 		-1 to 1
 
-* fBodyGyro-std()-Y
+* ### fBodyGyro-std()-Y
 	The standard deviation of FFT body acceleration by gyroscope along Y
 	numeric,
 		-1 to 1
 
-* fBodyGyro-std()-Z
+* ### fBodyGyro-std()-Z
 	The standard deviation of FFT body acceleration by gyroscope along Z
 	numeric,
 		-1 to 1
 
-* fBodyAccMag-mean()
+* ### fBodyAccMag-mean()
 	The mean of FFT body acceleration
 	numeric,
 		-1 to 1
 
-* fBodyAccMag-std()
+* ### fBodyAccMag-std()
 	The standard deviation of FFT body acceleration
 	numeric,
 		-1 to 1
 
-* fBodyBodyAccJerkMag-mean()
+* ### fBodyBodyAccJerkMag-mean()
 	The mean of FFT body acceleration jerk
 	numeric,
 		-1 to 1
 
-* fBodyBodyAccJerkMag-std()
+* ### fBodyBodyAccJerkMag-std()
 	The standard deviation of FFT body acceleration jerk
 	numeric,
 		-1 to 1
 
-* fBodyBodyGyroMag-mean()
+* ### fBodyBodyGyroMag-mean()
 	The mean of FFT acceleration by gyroscope
 	numeric,
 		-1 to 1
 
-* fBodyBodyGyroMag-std()
+* ### fBodyBodyGyroMag-std()
 	The standard deviation of FFT acceleration by gyroscope
 	numeric,
 		-1 to 1
 
-* fBodyBodyGyroJerkMag-mean()
+* ### fBodyBodyGyroJerkMag-mean()
 	The mean of FFT body acceleration jerk by gyroscope
 	numeric,
 		-1 to 1
 
-* fBodyBodyGyroJerkMag-std()
+* ### fBodyBodyGyroJerkMag-std()
 	The standard deviation of FFT body acceleration jerk by gyroscope
 	numeric,
 		-1 to 1
