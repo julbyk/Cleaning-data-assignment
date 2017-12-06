@@ -1,11 +1,11 @@
 # Human Activity Recognition Dataset
 
-*subject
+* subject
 	Identifier for every subject who carried out experiment
 	integer,
 		1..30
 
-*activity
+* activity
 	Type of the activity studied at every experiment.
 	factor with 6 levels,
 		WALKING
