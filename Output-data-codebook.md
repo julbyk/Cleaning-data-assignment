@@ -1,4 +1,34 @@
-# Human Activity Recognition Dataset
+# Code bood for 'run_analysis.R' and output files
+
+
+## Variables created by 'run_analysis.R'
+* subject_test: data frame with subject identifier for test dataset, size 2947x1, integer 1..30
+* y_test: data frame with activity identifier for test dataset, size 2947x1, integer 1 .. 6
+* x_test: data frame of measurements for test dataset,  size 2947x561, numeric, -1 .. 1
+* subject_train: data frame with subject identifier for train dataset, size 7352x1, integer 1..30
+* y_train: data frame with activity identifier for train dataset, size 7352x1, integer 1 .. 6
+* x_train: data frame of measurements for train dataset,  size 7352x561, numeric, -1 .. 1
+* subject: data frame with subject identifier for combined dataset, size 10299x1, integer 1..30
+* y_raw: data frame with activity identifier for combined dataset, size 10299x1, integer 1 .. 6
+* x_raw: data frame of measurements for combined dataset with all features,  size 10299x561, numeric, -1 .. 1
+* activity: list of activities for combined dataset
+* x: data frame of measurements for combined dataset with selected features,  size 10299x66, numeric, -1 .. 1
+
+* select: logical vector with feature selection
+* file_names: vector that stores the file names for reading from the 'UCI HAR Dataset' directory and subdirectories
+* file_path: variable that stores the file path for ready for 'UCI HAR Dataset' subdirectory
+* activity_labes: data frame with activity identifier and corresponding activity, size 6x2
+* features: the list of names of observations
+
+* data: tidy dataset, size 10299x561
+* sum_data: tidy summarized dataset
+
+## 'run_analysis.R' output
+* 'output-data.txt' with output dataset from step 4
+* 'output-sum-data.txt" with output dataset from step 5
+
+
+## Variables in the output files 
 
 * ### subject
 	Identifier for every subject who carried out experiment
