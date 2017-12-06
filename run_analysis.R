@@ -51,6 +51,6 @@ data %>%
     spread(feature,mean)
 
 #save complete dateset in the file 'output-data.csv'
-write.csv(data,file = "./output-data.csv")
+write.table(data,file = "./output-data.txt",row.names = FALSE)
 #save summarized dataset in the file 'output-sum-data.csv'
-write.csv(sum_data,file = "./output-sum-data.csv")
+write.table(sum_data,file = "./output-sum-data.txt",row.names = FALSE)
