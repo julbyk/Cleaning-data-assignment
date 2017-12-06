@@ -1,8 +1,8 @@
 # Cleaning-data-assignment
-============================================================================================
+======
 Getting and Cleaning Data peer-graded assignment
 by Julia Bykova
-============================================================================================
+======
 
 The "Cleaning-data-assignment" project creates the tidy dataset and summarized dataset of the selected data from the Human Activity Recognition Using Smartphones Dataset.
 
